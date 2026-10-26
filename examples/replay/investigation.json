@@ -1,0 +1,87 @@
+{
+  "provenance": "New hand-authored synthetic action fixture. Not a provider transcript or competition artifact.",
+  "actions": [
+    {
+      "type": "TOOL_CALL",
+      "tool": {
+        "name": "list_candidate_evidence",
+        "arguments": {
+          "case_id": "case_81001"
+        }
+      }
+    },
+    {
+      "type": "TOOL_CALL",
+      "tool": {
+        "name": "inspect_evidence",
+        "arguments": {
+          "evidence_id": "evidence_81002",
+          "resource_id": "search_81002"
+        }
+      }
+    },
+    {
+      "type": "PROPOSE_FINDINGS",
+      "findings": [
+        {
+          "type": "RESOURCE_STATE",
+          "system_id": "search_service",
+          "resource_id": "search_81002",
+          "evidence_id": "evidence_81002",
+          "data_category": "SEARCH_INDEX_ENTRY",
+          "state": "PRESENT",
+          "supporting_observation": {
+            "record_location": "$.records[0]",
+            "literal_fields": [
+              {
+                "field": "resource_id",
+                "value": "search_81002"
+              }
+            ],
+            "condition_name": "",
+            "expected_value": ""
+          }
+        }
+      ]
+    },
+    {
+      "type": "TOOL_CALL",
+      "tool": {
+        "name": "inspect_evidence",
+        "arguments": {
+          "evidence_id": "evidence_81003",
+          "resource_id": "data_flow_81003"
+        }
+      }
+    },
+    {
+      "type": "PROPOSE_FINDINGS",
+      "findings": [
+        {
+          "type": "ACTIVE_DATA_FLOW",
+          "system_id": "integration_service",
+          "resource_id": "data_flow_81003",
+          "evidence_id": "evidence_81003",
+          "data_category": "DATA_FLOW",
+          "state": "ACTIVE",
+          "supporting_observation": {
+            "record_location": "$.records[0]",
+            "literal_fields": [
+              {
+                "field": "resource_id",
+                "value": "data_flow_81003"
+              }
+            ],
+            "condition_name": "",
+            "expected_value": ""
+          }
+        }
+      ]
+    },
+    {
+      "type": "FINISH",
+      "reason": "Remaining search copy and enabled sync are independently grounded.",
+      "assessment": "Report residual data and recreation risk; keep final planning deterministic."
+    }
+  ]
+}

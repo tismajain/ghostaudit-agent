@@ -1,0 +1,3 @@
+rule_id,data_category,condition,required_action
+rule_81001,USER_PROFILE,Always,DELETE
+rule_81002,SEARCH_INDEX_ENTRY,Always,DELETE

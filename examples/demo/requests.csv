@@ -1,0 +1,2 @@
+case_id,email,requested_at,reported_status,reported_at,audit_at,request_text
+case_81001,privacy.old@example.test,2025-03-01T09:00:00Z,COMPLETE,2025-03-02T09:00:00Z,2025-03-07T09:00:00Z,Please delete my account and all personal data linked to my previous email address.

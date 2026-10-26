@@ -1,0 +1,38 @@
+# Credentials and private configuration
+.env
+.env.*
+.aws/
+.azure/
+.gcloud/
+credentials*.json
+*.pem
+*.key
+
+# Local environments and Python artifacts
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+*.egg-info/
+build/
+dist/
+
+# Runtime evidence copies, caches, results and private transcripts
+runs/
+cache/
+.cache/
+/dataset/
+/output.csv
+/log.txt
+*.log
+*.jsonl
+*.zip
+
+# Editor/OS files
+.DS_Store
+.idea/
+.vscode/

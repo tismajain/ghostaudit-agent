@@ -1,0 +1,2 @@
+audit_id,user_id,event_time,field_name,old_value,new_value
+audit_81001,user_81001,2025-02-01T09:00:00Z,email,privacy.old@example.test,privacy@example.test

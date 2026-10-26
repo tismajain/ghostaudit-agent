@@ -1,0 +1,2 @@
+# Python 3.12+ standard library only for the included JSON/CSV demo and tests.
+# Live Responses API calls use urllib; no SDK or third-party package is required.

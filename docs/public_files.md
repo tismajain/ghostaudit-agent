@@ -1,0 +1,47 @@
+# Intended public commit files
+
+Only these source/docs/new synthetic-example files are intended for the initial commit. Runtime folders and original competition material are excluded.
+
+- `.gitignore`
+- `README.md`
+- `docs/architecture.md`
+- `docs/engine_provenance.md`
+- `docs/evaluation.md`
+- `docs/licensing.md`
+- `docs/public_files.md`
+- `examples/demo/activity.csv`
+- `examples/demo/evidence/connector.json`
+- `examples/demo/evidence/post_audit_search.json`
+- `examples/demo/evidence/profile.json`
+- `examples/demo/evidence/search.json`
+- `examples/demo/evidence_manifest.csv`
+- `examples/demo/identities.csv`
+- `examples/demo/identity_history.csv`
+- `examples/demo/policy.csv`
+- `examples/demo/requests.csv`
+- `examples/replay/investigation.json`
+- `requirements.txt`
+- `scripts/review_public.py`
+- `scripts/run_demo.py`
+- `src/__init__.py`
+- `src/agent.py`
+- `src/agent_context.py`
+- `src/agent_system_prompt.md`
+- `src/agent_tools.py`
+- `src/baseline_runtime.py`
+- `src/best_effort.py`
+- `src/demo.py`
+- `src/evidence_cache.py`
+- `src/guard.py`
+- `src/identity.py`
+- `src/ingest.py`
+- `src/intent.py`
+- `src/llm_client.py`
+- `src/planner.py`
+- `src/policy.py`
+- `src/request_intent.py`
+- `src/routing.py`
+- `src/schemas.py`
+- `src/state.py`
+- `src/temporal.py`
+- `tests/test_engine.py`

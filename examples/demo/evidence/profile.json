@@ -1,0 +1,13 @@
+{
+  "system": "account_service",
+  "collection": "customer_profiles",
+  "observed_at": "2025-03-03T10:00:00Z",
+  "records": [
+    {
+      "resource_id": "account_81001",
+      "user_id": "user_81001",
+      "email": "privacy@example.test",
+      "result": "NOT_FOUND"
+    }
+  ]
+}

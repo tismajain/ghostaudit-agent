@@ -1,0 +1,14 @@
+{
+  "system": "integration_service",
+  "collection": "connector_subscriptions",
+  "observed_at": "2025-03-03T12:00:00Z",
+  "records": [
+    {
+      "resource_id": "data_flow_81003",
+      "user_id": "user_81001",
+      "enabled": true,
+      "source_resource_id": "search_81002",
+      "target_resource_id": "account_81001"
+    }
+  ]
+}

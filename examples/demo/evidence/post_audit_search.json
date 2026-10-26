@@ -1,0 +1,12 @@
+{
+  "system": "search_service",
+  "collection": "customer_search_documents",
+  "observed_at": "2025-03-09T10:00:00Z",
+  "records": [
+    {
+      "resource_id": "search_81002",
+      "user_id": "user_81001",
+      "result": "NOT_FOUND"
+    }
+  ]
+}

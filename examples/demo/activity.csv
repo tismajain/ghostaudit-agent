@@ -1,0 +1,2 @@
+activity_id,event_time,event_type,source_system,target_system,resource_id,reported_result,details
+activity_81001,2025-03-02T09:00:00Z,DELETE_RECORD,deletion_worker,account_service,account_81001,SUCCESS,Synthetic workflow claim; independently verify every copy.
